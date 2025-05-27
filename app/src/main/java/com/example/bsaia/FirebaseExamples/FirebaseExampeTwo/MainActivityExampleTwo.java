@@ -23,6 +23,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 
 public class MainActivityExampleTwo extends AppCompatActivity {
+
     RecyclerView recyclerView;
     DatabaseReference myReference;
     FirebaseDatabase database;
