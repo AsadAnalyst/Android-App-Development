@@ -14,7 +14,7 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.example.bsaia.R;
 //agr hm chaty hian k hamarri app resposive ho to hm isk liye...
-//fragment use krenge.
+//fragment use krenge...
 //ek activity k upr different fragment hoty hain.
 //fragment is nothing without activity(eg. child is nothing without parent)
 //screen k size k according fragments show ho rhy hoty hain
