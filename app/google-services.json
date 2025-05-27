@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "529752900580",
+    "project_id": "bs-ai-a-0110",
+    "storage_bucket": "bs-ai-a-0110.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529752900580:android:536674ab34f3b67aaabdf1",
+        "android_client_info": {
+          "package_name": "com.example.bsaia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHtAn1VGwc-ezx9j9OgqXfOO8x3BPhb30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

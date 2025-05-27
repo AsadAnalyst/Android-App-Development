@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"><!--wrap content krenge idr-->
+    <!--margin,cardCornerRadius,layout_gravity and eleveation khud dene hai-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_margin="20dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="6dp"
+        android:layout_gravity="center"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!--layout_width ko 360dp kr dena ha-->
+
+            <ImageView
+                android:id="@+id/imgcardview"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginHorizontal="10dp"
+
+                android:layout_marginTop="4dp"
+                android:clickable="true"
+                android:scaleType="fitXY"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/txtcardview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgcardview"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="8dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txtcardview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtcardview1"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:textSize="14sp"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

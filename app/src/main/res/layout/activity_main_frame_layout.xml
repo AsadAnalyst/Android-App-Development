@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#D94949"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StaticFragmentExample.FrameLayoutExample.MainActivityFrameLayout">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="302dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="72dp"
+        android:gravity="center"
+        android:text="@string/main_activity_frame"
+        android:textColor="#E9E6E6"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/btnfragmentone"
+        android:layout_width="136dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/first_fragment"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnfragmenttwo"
+        android:layout_width="142dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/second_fragment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toEndOf="@+id/btnfragmentone"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <FrameLayout
+        android:id="@+id/mainframelayout"
+        android:layout_width="349dp"
+        android:layout_height="382dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnfragmentone">
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

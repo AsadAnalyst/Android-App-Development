@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SharedPreferenceExample.ListViewWithSharedPref">
+
+    <ListView
+        android:id="@+id/lstsharedpref"
+        android:layout_width="403dp"
+        android:layout_height="682dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="341dp"
+        android:layout_height="64dp"
+        android:onClick="Show_Data"
+
+        android:text="@string/show_data"
+
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lstsharedpref"
+        app:layout_constraintVertical_bias="0.253" />
+</androidx.constraintlayout.widget.ConstraintLayout>

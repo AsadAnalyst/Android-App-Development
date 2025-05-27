@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PermissionExamples.PermissionExampleOneMainActivity">
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/request_permission"
+        android:onClick="Request_For_Permission"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="339dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/check_permission"
+        android:onClick="check_For_Permission"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button14" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="344dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/read_contact_permission"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button15"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/txtpermissionone"
+        android:layout_width="384dp"
+        android:layout_height="97dp"
+        android:layout_marginBottom="168dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button16"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
