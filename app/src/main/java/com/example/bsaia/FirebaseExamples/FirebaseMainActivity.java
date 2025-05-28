@@ -44,10 +44,10 @@ public class FirebaseMainActivity extends AppCompatActivity {
         super.onStart();
         dbReference.child("BSAI(A)").setValue("SMD");
 
-/*      Test_User testUser=new Test_User();
+      Test_User testUser=new Test_User();
         testUser.setName("Mohammad Ali");
         testUser.setEmail("abcd@nu.edu.pk");
-        dbReference.setValue(testUser);*/
+        dbReference.setValue(testUser);
 
 /*      dbReference.child("BSAI").child("SMD").
                 child("S1").setValue("Ali");

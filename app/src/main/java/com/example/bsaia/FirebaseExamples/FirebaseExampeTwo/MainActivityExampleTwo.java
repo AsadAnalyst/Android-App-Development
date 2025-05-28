@@ -62,7 +62,7 @@ public class MainActivityExampleTwo extends AppCompatActivity {
                         Student_BSAI obj =new Student_BSAI();
                         obj.setName(dataSnapshot.child("Name").getValue().toString());
                         obj.setPicture(dataSnapshot.child("Picture").getValue().toString());
-                        studentList.add(obj);
+                        studentList.add(obj); 
                 }
                 adapter = new FirebaseAdapter(studentList,getApplicationContext());
                 recyclerView.setAdapter(adapter);
