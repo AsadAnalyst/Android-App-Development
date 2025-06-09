@@ -1,4 +1,4 @@
-saspackage com.example.bsaia.FirebaseExamples;
+ssaspackage com.example.bsaia.FirebaseExamples;
 
 public class Test_User {
     String Name;
